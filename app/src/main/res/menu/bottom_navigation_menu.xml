@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/booksHomeFragment"
+        android:enabled="true"
+        android:icon="@drawable/upload_icon"
+        android:iconTint="@color/design_default_color_on_primary"
+        android:title="@string/upload"/>
+    <item
+        android:id="@+id/dashboardFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_dashboard_icon"
+        android:iconTint="@color/design_default_color_on_primary"
+        android:title="Dashboard"/>
+
+    <item
+        android:id="@+id/myLibraryFragment"
+        android:enabled="true"
+        android:icon="@drawable/my_library_icon"
+        android:iconTint="@color/design_default_color_on_primary"
+        android:title="My Library" />
+
+    <item
+        android:id="@+id/user_my_uploads_icon"
+        android:enabled="true"
+        android:icon="@drawable/myuploads_icon"
+        android:iconTint="@color/design_default_color_on_primary"
+        android:title="My Uploads" />
+</menu>

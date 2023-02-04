@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_login_graph"
+    app:startDestination="@id/userSigninFragment">
+
+    <fragment
+        android:id="@+id/userSigninFragment"
+        android:name="com.example.qataloog.view.UserSigninFragment"
+        android:label="fragment_user_signin"
+        tools:layout="@layout/fragment_user_signin" >
+        <action
+            android:id="@+id/action_userSigninFragment_to_userSignUpFragment"
+            app:destination="@id/userSignUpFragment" />
+        <action
+            android:id="@+id/action_userSigninFragment_to_booksHomeFragment2"
+            app:destination="@id/booksHomeFragment2" />
+        <action
+            android:id="@+id/action_userSigninFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/userSignUpFragment"
+        android:name="com.example.qataloog.view.UserSignUpFragment"
+        android:label="fragment_user_sign_up"
+        tools:layout="@layout/fragment_user_sign_up" />
+    <fragment
+        android:id="@+id/booksHomeFragment2"
+        android:name="com.example.qataloog.view.UploadsFragment"
+        android:label="fragment_books_home"
+        tools:layout="@layout/fragment_uploads" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.qataloog.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

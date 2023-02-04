@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/drawable/email_edittext.xml" value="0.167" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/drawable/round_button.xml" value="0.167" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/drawable/search_button.xml" value="0.167" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/activity_home.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/activity_splash_screen.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/activity_user_login.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/book_search_result_item.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/books_in_library_item.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/file_path.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_books_home.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_books_search_result.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_books_search_results_details.xml" value="0.12386018237082067" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_books_searched_pdf_view.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_category_b.xml" value="0.1109375" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_create_library.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_library_books.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_my_library.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_recommended_books.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_recommended_books_details.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_recommended_pdf_view.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_t_v_e_t_books_pdf_view.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_test_screen.xml" value="0.264" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_top_read_books.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_tvet_books.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_tvet_books_details.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_uploads.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_user_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/fragment_user_signin.xml" value="0.2" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/library_item_list.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/recommended_books_item.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/sign_up_redesign.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/top_read_books_item_list.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/layout/tvet_books_list_item.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/qataloog/app/src/main/res/xml/file_path.xml" value="0.2546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

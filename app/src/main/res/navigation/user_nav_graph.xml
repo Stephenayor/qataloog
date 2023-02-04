@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_nav_graph"
+    app:startDestination="@id/booksHomeFragment">
+
+    <fragment
+        android:id="@+id/booksHomeFragment"
+        android:name="com.example.qataloog.view.UploadsFragment"
+        android:label="fragment_books_home"
+        tools:layout="@layout/fragment_uploads" />
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.qataloog.view.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_recommendedBooksDetailsFragment"
+            app:destination="@id/recommendedBooksDetailsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_recommendedBooksFragment"
+            app:destination="@id/recommendedBooksFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_topReadBooksFragment"
+            app:destination="@id/topReadBooksFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_tvetBooksFragmentDetails"
+            app:destination="@id/tvetBooksFragmentDetails" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_booksSearchResultFragment"
+            app:destination="@id/booksSearchResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recommendedBooksFragment"
+        android:name="com.example.qataloog.view.RecommendedBooksFragment"
+        android:label="fragment_recommended_books"
+        tools:layout="@layout/fragment_recommended_books" >
+        <action
+            android:id="@+id/action_recommendedBooksFragment_to_recommendedBooksDetailsFragment"
+            app:destination="@id/recommendedBooksDetailsFragment" />
+        <argument
+            android:name="recommendedBooks"
+            app:argType="com.example.qataloog.model.responsemodel.dashboard.Recommended[]" />
+    </fragment>
+    <fragment
+        android:id="@+id/recommendedBooksDetailsFragment"
+        android:name="com.example.qataloog.view.RecommendedBooksDetailsFragment"
+        android:label="fragment_recommended_books_details"
+        tools:layout="@layout/fragment_recommended_books_details" >
+
+
+        <argument
+            android:name="bookData"
+            app:argType="com.example.qataloog.model.responsemodel.dashboard.Recommended" />
+        <action
+            android:id="@+id/action_recommendedBooksDetailsFragment_to_recommendedPdfViewFragment"
+            app:destination="@id/recommendedPdfViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recommendedPdfViewFragment"
+        android:name="com.example.qataloog.view.RecommendedPdfViewFragment"
+        android:label="fragment_recommended_pdf_view"
+        tools:layout="@layout/fragment_recommended_pdf_view" >
+        <argument
+            android:name="bookData"
+            app:argType="com.example.qataloog.model.responsemodel.dashboard.Recommended" />
+    </fragment>
+    <fragment
+        android:id="@+id/myLibraryFragment"
+        android:name="com.example.qataloog.MyLibraryFragment"
+        android:label="fragment_my_library"
+        tools:layout="@layout/fragment_my_library" >
+        <action
+            android:id="@+id/action_myLibraryFragment_to_createLibraryFragment"
+            app:destination="@id/createLibraryFragment" />
+        <action
+            android:id="@+id/action_myLibraryFragment_self"
+            app:destination="@id/myLibraryFragment" />
+        <action
+            android:id="@+id/action_myLibraryFragment_to_libraryBooksFragment"
+            app:destination="@id/libraryBooksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createLibraryFragment"
+        android:name="com.example.qataloog.view.CreateLibraryFragment"
+        android:label="fragment_create_library"
+        tools:layout="@layout/fragment_create_library" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/libraryBooksFragment"
+        android:name="com.example.qataloog.view.LibraryBooksFragment"
+        android:label="fragment_library_books"
+        tools:layout="@layout/fragment_library_books" >
+
+        <argument
+            android:name="libraryBooks"
+            app:argType="com.example.qataloog.model.responsemodel.LibraryBooks[]" />
+    </fragment>
+    <fragment
+        android:id="@+id/topReadBooksFragment"
+        android:name="com.example.qataloog.view.TopReadBooksFragment"
+        android:label="fragment_top_read_books"
+        tools:layout="@layout/fragment_top_read_books" >
+        <argument
+            android:name="topReadList"
+            app:argType="com.example.qataloog.model.responsemodel.dashboard.TopRead[]" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvetBooksFragmentDetails"
+        android:name="com.example.qataloog.view.TvetBooksFragmentDetails"
+        android:label="TvetBooksFragmentDetails" >
+        <argument
+            android:name="tvetBook"
+            app:argType="com.example.qataloog.model.responsemodel.dashboard.TVET" />
+        <action
+            android:id="@+id/action_tvetBooksFragmentDetails_to_TVETBooksPdfViewFragment"
+            app:destination="@id/TVETBooksPdfViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TVETBooksPdfViewFragment"
+        android:name="com.example.qataloog.view.TVETBooksPdfViewFragment"
+        android:label="fragment_t_v_e_t_books_pdf_view"
+        tools:layout="@layout/fragment_t_v_e_t_books_pdf_view" >
+        <argument
+            android:name="tvetBook"
+            app:argType="com.example.qataloog.model.responsemodel.dashboard.TVET" />
+    </fragment>
+    <fragment
+        android:id="@+id/booksSearchResultFragment"
+        android:name="com.example.qataloog.view.BooksSearchResultFragment"
+        android:label="fragment_books_search_result"
+        tools:layout="@layout/fragment_books_search_result" >
+        <argument
+            android:name="booksSearchTitle"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_booksSearchResultFragment_to_booksSearchResultsDetailsFragment"
+            app:destination="@id/booksSearchResultsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/booksSearchResultsDetailsFragment"
+        android:name="com.example.qataloog.view.BooksSearchResultsDetailsFragment"
+        android:label="fragment_books_search_results_details"
+        tools:layout="@layout/fragment_books_search_results_details" >
+        <argument
+            android:name="bookQueryData"
+            app:argType="com.example.qataloog.model.responsemodel.bookssearch.BookQueryData" />
+        <action
+            android:id="@+id/action_booksSearchResultsDetailsFragment_to_booksSearchedPdfViewFragment"
+            app:destination="@id/booksSearchedPdfViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/booksSearchedPdfViewFragment"
+        android:name="com.example.qataloog.BooksSearchedPdfViewFragment"
+        android:label="BooksSearchedPdfViewFragment" >
+        <argument
+            android:name="bookQueryData"
+            app:argType="com.example.qataloog.model.responsemodel.bookssearch.BookQueryData" />
+    </fragment>
+</navigation>

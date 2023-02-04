@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.RecommendedBooksDetailsFragment">
+
+    <ImageView
+        android:id="@+id/searched_book_details_image"
+        android:layout_width="200dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="15dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/recommended_image" />
+
+    <TextView
+        android:id="@+id/searched_book_details_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/searched_book_details_image"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_marginStart="13dp"/>
+
+    <TextView
+        android:id="@+id/searched_book_details_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/searched_book_details_image"
+        android:layout_below="@id/searched_book_details_title"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_marginStart="13dp"/>
+
+    <Button
+        android:id="@+id/download_searched_book"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:layout_below="@id/searched_book_details_image"
+        android:layout_alignBaseline="@id/searched_book_details_image"
+        android:layout_toEndOf="@id/searched_book_details_image"
+        android:text="@string/read_now_button_recommended_book_details_screen"/>
+
+
+    <ProgressBar
+        android:id="@+id/books_searchResult_details_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateTint="@color/orange_qat"
+        />
+
+
+</RelativeLayout>

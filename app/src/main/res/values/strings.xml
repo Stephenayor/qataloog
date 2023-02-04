@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">qataloog</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">HELLO BLANK</string>
+    <string name="create_an_account_to_continue">Create an account to \ncontinue</string>
+    <string name="your_name">Your name</string>
+    <string name="user_sign_up_email">Your Email</string>
+    <string name="signup_password">Your password</string>
+    <string name="i_agree_to_the_terms_of_service">I agree to the terms of service</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in_to_qataloog">Sign in</string>
+    <string name="sign_in_button_user">Sign in</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="sign_up_button_in_signin_screen">Sign Up</string>
+    <string name="upload">Upload</string>
+    <string name="recommended_image">recommended_image</string>
+    <string name="create_library">CREATE LIBRARY</string>
+    <string name="create_a_new_library">Create a New Library</string>
+    <string name="save_library">Save</string>
+    <string name="top_reads_category">TOP READS</string>
+    <string name="recommended_category">RECOMMENDED</string>
+    <string name="read_now_button_recommended_book_details_screen">READ NOW</string>
+    <string name="book_searchquery_hint_text">Search</string>
+    <string name="search_books_button">Search books</string>
+    <string name="oops_book_not_found_warning_message">Oops....Book Not found</string>
+    <string name="tvet">Tvet</string>
+    <string name="upload_ebook">Upload EBook</string>
+</resources>

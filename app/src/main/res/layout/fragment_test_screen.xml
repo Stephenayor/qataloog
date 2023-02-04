@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F4623A"
+    tools:context=".testScreen">
+
+<!--    <TextView-->
+<!--        android:id="@+id/user_sign_in_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="@string/sign_in_to_qataloog"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="40sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+<!--        android:fontFamily="sans-serif"-->
+<!--        android:textColor="@color/design_default_color_on_primary"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/sign_in_image"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:src="@drawable/educator_sign_in"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/user_sign_in_text"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/user_sign_in_email_text_field"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_width="330dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:hint="Your Email"-->
+<!--        android:backgroundTint="@color/design_default_color_on_primary"-->
+<!--        android:padding="20dp"-->
+<!--        android:background="@drawable/email_edittext"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/sign_in_image"-->
+<!--        app:layout_constraintStart_toStartOf="parent"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/user_sign_in_password"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_width="330dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:hint="Your Password"-->
+<!--        android:backgroundTint="@color/design_default_color_on_primary"-->
+<!--        android:padding="20dp"-->
+<!--        android:background="@drawable/email_edittext"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/user_sign_in_email_text_field"-->
+<!--        app:layout_constraintStart_toStartOf="parent"/>-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/user_sign_in_button"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/user_sign_in_password"-->
+<!--        android:layout_marginBottom="70dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="@string/sign_in_button_user"-->
+<!--        android:background="@drawable/round_button"-->
+<!--        app:backgroundTint="#12141D"-->
+<!--        android:textSize="18sp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/already_have_an_account_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/user_sign_in_button"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="@string/dont_have_an_account"-->
+<!--        android:fontFamily="sans-serif"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/design_default_color_on_primary"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/textButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#12141D"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="@string/sign_up_button_in_signin_screen"-->
+<!--        style="@style/Widget.MaterialComponents.Button.TextButton"-->
+<!--        app:layout_constraintStart_toEndOf="@id/already_have_an_account_text"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/user_sign_in_button"-->
+<!--        />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
